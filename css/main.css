@@ -13,3 +13,20 @@ button:hover {
     bottom: 15px;
     left: 15px;
 }
+
+.avatar {
+    position: absolute;
+    top: 15px;
+    right: 150px;
+    width: 66px;
+    height: 66px;
+}
+
+.avatar-name {
+    position: absolute;
+    top: 20px;
+    right: 75px;
+    width: 66px;
+    height: 66px;
+    color: white;
+}
