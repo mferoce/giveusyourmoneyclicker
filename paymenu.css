@@ -21,8 +21,6 @@ background-image: url("https://wpmisc.com/sites/default/files/wallpaper/abstract
 }
 
 img {
-    height: 200px;
-    width: 900px;
     text-align: center;
     margin: auto;
 }
@@ -56,4 +54,13 @@ font-size: 16px;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center"
+}
+
+.btn-wrap {
+    background-color: lightblue;
+    border: #FFF;
+    border-width: 5px;
+    padding: 10px;
+    margin: 10px;
+    background-color:rgba(0, 255, 170, 0.356)
 }
