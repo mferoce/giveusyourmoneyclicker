@@ -20,7 +20,7 @@ background-image: url("https://wpmisc.com/sites/default/files/wallpaper/abstract
     z-index: -1;
 }
 
-img {
+.logo {
     height: 200px;
     width: 900px;
     text-align: center;
