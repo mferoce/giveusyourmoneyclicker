@@ -2,6 +2,7 @@
 <html>
 <header>
     <Link rel="Stylesheet" type="text/css" href="./paymenu.css">
+        <Link rel="Stylesheet" type="text/css" href="./css/main.css">
     <link
         href="https://fonts.googleapis.com/css?family=Abril+Fatface|Luckiest+Guy|Orbitron|Russo+One|Shadows+Into+Light|Teko&display=swap"
         rel="stylesheet">
@@ -11,24 +12,35 @@
 <body>
 
     <div class="frame1">
-        <img src="https://www.logolynx.com/images/logolynx/7f/7fe85fb6677eaf8d18c3511c3fcaad79.png">
+        <img class="logo" src="https://www.logolynx.com/images/logolynx/7f/7fe85fb6677eaf8d18c3511c3fcaad79.png">
     </div>
-    <button class="button" type="button" onclick="redirectNeonomics()">
-        <h2>USE STORED NEONOMICS</h2>
+    <button class="button back-button" type="button" onclick="goBack()">
+        <h2>Back</h2>
     </button><br>
-    <button class="button" type="button">
-        <h2>CREDIT CARD</h2>
-    </button><br>
-    <button class="button" type="button" onclick="redirectBonus()">
-        <h2>ADD NEONOMICS</h2>
-        <h5>And Get Bonus!</h5>
-    </button>
+    <img class="avatar" src="./avatar.jpg" />
+    <h3 class="avatar-name">Kenneth</h3>
+    <div class="menu-wrapper">
+        <button class="button" type="button" onclick="redirectpay_6()">
+            <h2>USE STORED NEONOMICS</h2>
+        </button><br>
+        <button class="button" type="button">
+            <h2>CREDIT CARD</h2>
+        </button><br>
+        <button class="button" type="button" onclick="redirectNeonomics()">
+            <h2>ADD NEONOMICS</h2>
+            <h5>And Get 10% bonus!</h5>
+        </button>
+    </div>
+
     <script>
         function redirectNeonomics() {
             window.location.replace("neonomics_payment.html");
         }
-        function redirectBonus() {
-            window.location.replace("bonus.html");
+        function redirectpay_6() {
+            window.location.replace("neonomics_payment_6.html");
+        }
+        function goBack() {
+            window.location.replace("store.html");
         }
     </script>
 </body>

@@ -8,8 +8,33 @@ button:hover {
     cursor: pointer;
 }
 
+.button {
+    min-width: 292px;
+}
+
 .back-button.button {
     position: absolute;
     bottom: 15px;
     left: 15px;
+}
+
+.avatar {
+    position: absolute;
+    top: 15px;
+    right: 150px;
+    width: 66px;
+    height: 66px;
+}
+
+.avatar-name {
+    position: absolute;
+    top: 20px;
+    right: 75px;
+    width: 66px;
+    height: 66px;
+    color: white;
+}
+
+.btn-group button {
+    margin: 10px;
 }
