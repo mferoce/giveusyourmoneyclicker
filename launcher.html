@@ -18,7 +18,7 @@
         <button class="button" type="button" onclick="goToGame()">
             <h2>Start</h2>
         </button><br>
-        <button class="button" type="button">
+        <button class="button" type="button" onclick="goToStore()">
             <h2>Store</h2>
         </button><br>
         <button class="button" type="button" onclick="">
@@ -29,8 +29,11 @@
         function goToGame() {
             window.location.replace("game.html");
         }
-        function redirectBonus() {
-            window.location.replace("bonus.html");
+        function goToStore() {
+            window.location.replace("store.html");
+        }
+        function goBack() {
+            window.location.replace("launcher.html");
         }
     </script>
 </body>

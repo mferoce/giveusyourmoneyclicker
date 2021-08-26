@@ -3,7 +3,13 @@
     width: 236px;
 }
 
-.menu-wrapper button:hover {
+button:hover {
     border-color: yellow;
     cursor: pointer;
+}
+
+.back-button.button {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
 }
