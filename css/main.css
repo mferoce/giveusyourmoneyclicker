@@ -1,0 +1,15 @@
+.menu-wrapper {
+    margin: 70px auto 0;
+    width: 236px;
+}
+
+button:hover {
+    border-color: yellow;
+    cursor: pointer;
+}
+
+.back-button.button {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+}
