@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <header>
+    <Link rel="Stylesheet" type="text/css" href="./paymenu.css">
+    <link
+        href="https://fonts.googleapis.com/css?family=Abril+Fatface|Luckiest+Guy|Orbitron|Russo+One|Shadows+Into+Light|Teko&display=swap"
+        rel="stylesheet">
+  </header>
+    <title>Store</title>
+<body>
+  <div class="storeMenu">
+    <div class="btn-group">
+      <div class="btn-wrap" onclick="confirm()">
+        <h2>You are paying 800 gems for the: "happy skin"</h2>
+        <button class="button" onclick="confirm()" type="button"><p>Confirm</p></button><br>
+        <button class="button" type="button"><p>CANCEL</p></button><br>
+      </div>
+    </div>
+
+    <script>
+      function confirm() {
+          window.location.replace("game.html?funfactor=1");
+      }
+    </script>
+
+  </div>
+</body>
+</html>
