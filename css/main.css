@@ -1,0 +1,9 @@
+.menu-wrapper {
+    margin: 70px auto 0;
+    width: 236px;
+}
+
+.menu-wrapper button:hover {
+    border-color: yellow;
+    cursor: pointer;
+}
