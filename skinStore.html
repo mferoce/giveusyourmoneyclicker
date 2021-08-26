@@ -2,12 +2,16 @@
 <html>
   <header>
     <Link rel="Stylesheet" type="text/css" href="./paymenu.css">
+      <Link rel="Stylesheet" type="text/css" href="./css/main.css">
     <link
         href="https://fonts.googleapis.com/css?family=Abril+Fatface|Luckiest+Guy|Orbitron|Russo+One|Shadows+Into+Light|Teko&display=swap"
         rel="stylesheet">
   </header>
     <title>Store</title>
 <body>
+  <button class="button back-button" type="button" onclick="goBack()">
+    <h2>Back</h2>
+</button><br>
   <div class="storeMenu">
     <div class="btn-group">
       <div class="btn-wrap">
@@ -49,8 +53,12 @@
 
     <script>
       function buySkin() {
-          window.location.replace("buySkin.html");
+          window.location.replace("game.html?funfactor=1");
       }
+
+      function goBack() {
+            window.location.replace("launcher.html");
+        }
     </script>
 
   </div>
